@@ -1,0 +1,15 @@
+'0':
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: IRON_ORE
+  amount: 64
+'1':
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: IRON_ORE
+  amount: 64
+'2':
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: IRON_ORE
+  amount: 12
