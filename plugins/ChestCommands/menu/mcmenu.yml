@@ -1,0 +1,66 @@
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1&lmcMMO'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'mcmenu'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    id: compass
+    left-click: false
+    right-click: false
+
+
+default-icon:
+  NAME: '&c '
+  ID: green stained glass pane
+  KEEP-OPEN: true
+
+
+# Тут предметы
+
+ranktopcmd:
+  COMMAND:
+    LEFT: 'mcrank'
+    RIGHT: 'mctop'
+  NAME: '&6Узнать положение в топе по навыкам'
+  LORE:
+    - '&9&oЛКМ для рангов по навыкам'
+    - '&9&oПКМ для топа по общему уровню'
+  ID: emerald
+  ENCHANTMENT: durability,1
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+rankinfocmd:
+  COMMAND: ''
+  NAME: '&e&lНавыки'
+  LORE:
+    - '&dДля информации о любом навыке пропишите /{навык}'
+  ID: golden sword
+  ENCHANTMENT: durability,1
+  POSITION-X: 4
+  POSITION-Y: 1
+  KEEP-OPEN: true
+partyinfocmd:
+  COMMAND: ''
+  NAME: '&5&lПати'
+  LORE:
+    - '&eПати - рекомендуемая часть геймплея с друзьями'
+    - '&eС некоторого уровня можно разделять получаемый опыт навыков,'
+    - '&eПредметы и даже телепортироваться! &6&o(подробнее в гайде)'
+  ID: firework
+  ENCHANTMENT: durability,1
+  POSITION-X: 6
+  POSITION-Y: 1
+  KEEP-OPEN: true

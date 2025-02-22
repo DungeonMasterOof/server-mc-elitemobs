@@ -1,0 +1,140 @@
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&6Меню BambooCraft'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 5
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menu;меню'
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &aВы открыли меню.'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    id: clock
+    left-click: false
+    right-click: true
+
+
+default-icon:
+  NAME: '&c '
+  ID: stained glass pane
+  KEEP-OPEN: true
+
+
+# Тут предметы
+
+
+infocmd:
+  COMMAND: 'tell: &9Дискорд: https://discord.gg/DebpjE4'
+  NAME: '&2&lИнформация'
+  LORE:
+    - '&3&oВсё самое важное здесь'
+  ID: paper
+  POSITION-X: 5
+  POSITION-Y: 1
+kitcmd:
+  COMMAND: 'delay:1;kit'
+  NAME: '&cКиты'
+  LORE:
+    - '&eНе забывайте про туриста! :P'
+  ID: iron sword
+  POSITION-X: 4
+  POSITION-Y: 2
+  ENCHANTMENT: sharpness, 1
+cemenucmd:
+  COMMAND: 'delay:1;cemenu'
+  NAME: '&5&lКастомные чары'
+  LORE: 
+    - '&2Станьте топ 1 с кастомными чарами!'
+  ID: bookshelf
+  POSITION-X: 6
+  POSITION-Y: 2
+  ENCHANTMENT: durability, 1
+spawncmd:
+  COMMAND: 'spawn'
+  NAME: '&eТелепортироваться на спавн'
+  LORE:
+    - '&dКлик и ты на спавне!'
+  ID: compass
+  POSITION-X: 5
+  POSITION-Y: 5
+mmomenucmd:
+  COMMAND: 'delay:1;mcmenu'
+  NAME: '&9&lmcMMO'
+  LORE:
+    - '&eВсё о прокачке в одном отделе!'
+  ID: diamond sword
+  ENCHANTMENT: durability, 1
+  POSITION-X: 3
+  POSITION-Y: 3
+faqcmd:
+  COMMAND: ''
+  NAME: '&e&oКак получить кастомные рецепты крафта? &r&eА достижения?'
+  LORE:
+    - '&6Пожалуйста, прочтите гайд перед тем как задать вопрос.'
+    - '&6В большинстве случаев там всё есть. :L'
+  ID: gold nugget
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+rghelpcmd:
+  COMMAND: 'tell: &d//wand &e- топор для выделения территории &d(аналог //pos1 //pos2); tell: &d//expand {блоки} {up/down} &e- увеличить выделенную территорию вверх/вниз; tell: &d/rg claim {название} &e- заприватить регион; tell: &d/rg addmember/addowner {название} {ник} &e- добавить участника/владельца в регион; tell: &d/rg remove {название} &e- удалить регион'
+  LORE:
+    - '&d//wand &e- топор для выделения территории &d(аналог //pos1 //pos2)'
+    - '&d//expand {блоки} {up/down} &e- увеличить выделенную территорию вверх/вниз'
+    - '&d/rg claim {название} &e- заприватить регион'
+    - '&d/rg addmember/addowner {название} {ник} &e- добавить участника/владельца в регион'
+    - '&d/rg remove {название} &e- удалить регион'
+  COOLDOWN: 30
+  POSITION-X: 4
+  POSITION-Y: 4
+  ID: wooden axe
+  KEEP-OPEN: true
+shareitemcmd:
+  COMMAND: ''
+  NAME: '&cВыбили отличный лут с элитного моба?'
+  LORE:
+    - '&eПокажите его всем с помощью &6/shareitem!'
+  ID: crossbow
+  ENCHANTMENT: durability,1
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 4
+bossmenucmd:
+  COMMAND: 'delay:1;bossmenu'
+  NAME: '&4&lМеню боссов и данжей'
+  LORE: 
+    - '&9Тайный торговец продаёт доступ ко всему могущественному злу мира..'
+  ID: bone
+  ENCHANTMENT: durability,1
+  POSITION-X: 5
+  POSITION-Y: 3
+multislot1:
+  NAME: ''
+  LORE: ''
+  ID: red stained glass pane
+  KEEP-OPEN: true
+  SLOT: '2,8,10,12,16,18,20,26,28,30,34,36,38,44'
+multislot2:
+  NAME: ''
+  LORE: ''
+  ID: pink stained glass pane
+  SLOT: '4,6,40,42'
+  KEEP-OPEN: true
+backcmd:
+  NAME: '&4Закрыть меню'
+  LORE: ''
+  ID: barrier
+  POSITION-X: 9
+  POSITION-Y: 5

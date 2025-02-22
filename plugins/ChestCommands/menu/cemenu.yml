@@ -1,0 +1,67 @@
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&dМеню кастомных чар'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'cemenu;менючар'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    id: compass
+    left-click: false
+    right-click: false
+
+
+default-icon:
+  NAME: '&c '
+  ID: yellow stained glass pane
+  KEEP-OPEN: true
+
+
+# Тут предметы
+
+
+crazyshop1cmd:
+  COMMAND: 'delay:1;ceshop1'
+  NAME: '&4Магазин книг'
+  LORE:
+    - '&cКупите книжку и наслаждайтесь жизнью!'
+  ID: book
+  POSITION-X: 3
+  POSITION-Y: 1
+blacksmithcmd:
+  COMMAND: 'delay:1;blacksmith'
+  NAME: '&eКузнец Виталий'
+  LORE:
+    - '&5Захади прахади книжки кастомные объедини!1'
+  ID: anvil
+  POSITION-X: 4
+  POSITION-Y: 1
+ceinfo:
+  COMMAND: 'delay:1;ce info'
+  NAME: '&6Информация о зачарованиях'
+  LORE:
+    - '&cТы же хочешь знать, с чем будешь ходить?)'
+  ID: written_book
+  POSITION-X: 6
+  POSITION-Y: 1
+crazyshop2cmd:
+  COMMAND: 'delay:1;ceshop2'
+  NAME: '&5Магазин "У гоблина"'
+  LORE: 
+    - '&2Всё, что пригодится любому пользователю'
+    - '&2Кастомных чар'
+  ID: golden pickaxe
+  ENCHANTMENT: durability, 1
+  POSITION-X: 7
+  POSITION-Y: 1
+   

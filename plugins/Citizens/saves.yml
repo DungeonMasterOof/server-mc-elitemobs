@@ -1,0 +1,558 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 17
+npc:
+  '5':
+    metadata:
+      ambient-sound: ''
+      protected: true
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+      respawn-delay: -1
+    name: §eКотёнок
+    uuid: 1ec2dd7c-9586-453f-bd0f-57244e4fda25
+    traits:
+      location:
+        bodyYaw: 210.39539
+        world: spigotworld
+        x: '264.5267'
+        y: '64.0'
+        z: '-119.4619'
+        yaw: '-149.6046'
+        pitch: '0.0'
+      age:
+        age: -24000
+        locked: true
+      spawned: true
+      type: CAT
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': '&dМяу!'
+      speech: chat
+      cattrait:
+        lying: true
+        sitting: false
+        type: BLACK
+      owner:
+        owner: '123'
+        uuid: 75f41576-c9ae-3be1-9e5a-f6091a7fa867
+    traitnames: cattrait,mounttrait,type,text,age,speech,owner,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    metadata:
+      cached-skin-uuid-name: fisherman_
+      cached-skin-uuid: 5038c8c5-f0b7-491e-85ce-3844daa51f5a
+      removefromplayerlist: true
+    name: §aРыбак
+    uuid: d0b58568-f497-4e0d-8ccb-cc4785c1bef2
+    traits:
+      controllable:
+        enabled: false
+        owner_required: false
+      location:
+        bodyYaw: -1.3505859
+        world: spigotworld
+        x: '253.969'
+        y: '64.5'
+        z: '-92.9556'
+        yaw: '-1.3506'
+        pitch: '6.3002'
+      anchors:
+        list:
+          '0': -a;spigotworld;254.3364525139874;65.0;-93.86146725308774
+      type: PLAYER
+      skinlayers:
+        cape: true
+        hat: true
+        jacket: true
+        left-pants: true
+        left-sleeve: true
+        right-pants: true
+        right-sleeve: true
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': '&6О, привет! Смотри что я умею делать!'
+      speech: chat
+      gravity:
+        enabled: false
+      waypoints:
+        linear:
+          cachePaths: false
+        provider: linear
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: fishing_rod
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+          enchantments:
+            unbreaking: 1
+        '36':
+          type_namespace: minecraft
+          type_key: leather_boots
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 5004134
+        '37':
+          type_namespace: minecraft
+          type_key: leather_leggings
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 3093619
+        '38':
+          type_namespace: minecraft
+          type_key: leather_chestplate
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 4410986
+        '39':
+          type_namespace: minecraft
+          type_key: chainmail_helmet
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+          enchantments:
+            unbreaking: 1
+        '40':
+          type_namespace: minecraft
+          type_key: player_head
+          amount: 1
+          durability: 0
+          mdata: 3
+          meta:
+            unbreakable: false
+            repaircost: 0
+            skull:
+              texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDlmMWYwN2UyYjFjMzJiYjY0YTEyOGU1MjlmM2FmMWU1Mjg2ZTUxODU0NGVkZjhjYmFhNmM0MDY1YjQ3NmIifX19
+      skintrait:
+        fetchDefaultSkin: true
+        signature: s1UjmcmXgywrcYEFueOE57OZ29VqWX+R0gmQn8rPV/u5M01Xeezus2XQ6/GpQAHgmgRsphIwshrY44YWM1pi3Z5yKf5eKvee2z8YCmPcyPeEkqUihT0s6ELgn+Y+19uRvuZVWNgr9UVFTp5uZTb7Ed6A9ZBpyHF4cJ5+XJrE8HGmQisCFAT0vb6WHXIPCqvyKMO5E8i0JWpB7mAJOgOttFoRIpEWTEhxTSNtn5thU0SsViLzx5FtZI0192/qhD1MuL7fG64mgirApHXEwb6N8JYfM+/o6Rk201OwgtxTbFJupMsepMQWKB1h6HOpV2P2yqiD0s4XfDFr5oqjvo2jk28pZGA7aBFuQ+rUPBVVUsKiZy1rkPPBzVrBTv49OV+KBBVx7uCfD7GFEffn36eZHIInMq+qcUVuVl6EzqkTTTXWNo4wmX9a2/wtMYmsIdRCIXXI28B2SMlGBkHKzX88TDTowL9KcBnuV2N/kUv9cWx+YxswNLJL/A/U8xhm2CVmgZlyDO40aBqDV77XICZXJjQuAJw4VZmJUBujAHXTDUlHb3uyBYzzso0OUHqu6wzO59jsdfSgV0cPJ7DRGuHPb8wK6Sbo6vGzjwXiO8fqO4IdOzJq1ELyjAHqc7VORW1pKTnjCMOy4XUzxP3VeS5AOdtYXgw5nFz8JVY9NUQyEjs=
+        skinName: fisherman_
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5MTMwODAyODU3MSwKICAicHJvZmlsZUlkIiA6ICI1MDM4YzhjNWYwYjc0OTFlODVjZTM4NDRkYWE1MWY1YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXNoZXJtYW5fIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y0ZjM2YmQ0YjIyZDM2ZjBmZDc4ZTQzYWJmMGIyMmYzOGUxNTEwNTUyNmRhZWMyYzNiMDExYzNhNTRlMzY0YzUiCiAgICB9CiAgfQp9
+        updateSkins: true
+      spawned: true
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: fishing_rod
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+          enchantments:
+            unbreaking: 1
+        helmet:
+          type_namespace: minecraft
+          type_key: chainmail_helmet
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+          enchantments:
+            unbreaking: 1
+        chestplate:
+          type_namespace: minecraft
+          type_key: leather_chestplate
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 4410986
+        leggings:
+          type_namespace: minecraft
+          type_key: leather_leggings
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 3093619
+        boots:
+          type_namespace: minecraft
+          type_key: leather_boots
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 5004134
+        offhand:
+          type_namespace: minecraft
+          type_key: player_head
+          amount: 1
+          durability: 0
+          mdata: 3
+          meta:
+            unbreakable: false
+            repaircost: 0
+            skull:
+              texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDlmMWYwN2UyYjFjMzJiYjY0YTEyOGU1MjlmM2FmMWU1Mjg2ZTUxODU0NGVkZjhjYmFhNmM0MDY1YjQ3NmIifX19
+              uuid: b5e74aa0-357e-387c-9e9f-e4198497cd47
+              properties:
+                textures:
+                  '0':
+                    name: textures
+                    value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDlmMWYwN2UyYjFjMzJiYjY0YTEyOGU1MjlmM2FmMWU1Mjg2ZTUxODU0NGVkZjhjYmFhNmM0MDY1YjQ3NmIifX19
+              owner: ''
+      commandtrait:
+        commands:
+          '1':
+            command: ebpc
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 1
+            n: -1
+            delay: 5
+        cooldowns:
+          75f41576-c9ae-3be1-9e5a-f6091a7fa867:
+            lastUsed:
+              /ebpc: 1589984693
+              /ebpc %player%: 1589984646
+              ebpc: 1591103026
+          691ef3b6-d6b0-31d7-9dbc-091e50314b7a:
+            lastUsed:
+              ebpc: 1590069760
+          6b3dfd21-9bed-3b62-8d37-c7e553996799:
+            lastUsed:
+              ebpc: 1591296636
+          d68e2cb4-21c6-309a-a4e4-e80c38eafbdf:
+            lastUsed:
+              ebpc: 1590607615
+          ed7d134a-159e-304a-a5e7-d24ebca82cf9:
+            lastUsed:
+              ebpc: 1591104328
+          18fcf0ec-d716-3c68-9dbb-ffabcfbc52fe:
+            lastUsed:
+              ebpc: 1590689935
+          87aa1c2f-4ec1-34e7-bb7c-cf2fa4866364:
+            lastUsed:
+              ebpc: 1591026914
+          1705faf8-874d-3b25-ac93-13d149fc1527:
+            lastUsed:
+              ebpc: 1591184191
+      owner:
+        owner: '123'
+        uuid: 75f41576-c9ae-3be1-9e5a-f6091a7fa867
+    traitnames: waypoints,type,gravity,commandtrait,controllable,text,equipment,skinlayers,location,inventory,anchors,mounttrait,skintrait,speech,owner,scoreboardtrait,poses,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    metadata:
+      cached-skin-uuid-name: __gamix__
+      cached-skin-uuid: 4f3ecd58-341b-4830-aac1-ccbb15e62dc1
+      protected-target: false
+    name: §cМастер гильдии
+    uuid: f5885576-8e03-4650-8d67-db67f66037ce
+    traits:
+      location:
+        bodyYaw: -89.250656
+        world: spigotworld
+        x: '253.8743'
+        y: '66.0'
+        z: '-110.0082'
+        yaw: '-89.2507'
+        pitch: '1.05'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: E3FYFIZhzwVhZArQ74WMoOqp4HQ6nXjznIPnYMD5pKtvF2QBSqb4yTAbk++JbKJ/7aoVwWTZsl8fwByqiL9FQN9eVBmTq5KsGp6yZBb68qKZFRkYH2BgH2TGu3Km6lnG5QjbeqU4oW4DgBjHudQewNVrM3iEZ71jTJl1YCvBQwKGekxkD+L006DqtLf8ZvplDlM/o6THSlm+zgNKo62x236nqHpQTHiDEjh+NR52RMjrxUZifqm+jeS6fXyzgo/NVeLSX5Oy/0SnAt2bmJnMLEmsSHFUJB5kWiERxB0/ioWZKhzGHVX/cwMdxFVQsROTnEvq7PEdVAX7lTxnnmLiu/VbymhGu5Xlf9qRXzkBv1dXMOCPq8u9Q3ZHSoC7JsX4PipPCQpZVS2TevO49cYiVP0G4y6gMY8xD8hqGXolcVXRnYvCb4wmr//HP2WEvWfycQGLMYGpN/ORJ1/LKkxRRa3hcakgYIjeSYRc6hDeuET34kiKmxSramLYvOE18t75unM91LblJAM1S2vN4hblbSC+1AQsfvAFEZr5LVmDCTPbmrpLeJMfYMN60IwU7RFP5v/L3/rjVEmV0VOwviS5rDI4C5memds4yRY+ZcIIi7S++kdiy3qMncJqNl9L+TJShIUB+IUR4/zNBturrjKHuZHhzbYHICFJqyCjMxT0pQY=
+        skinName: __gamix__
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU4OTk5NzY0NjM3NywKICAicHJvZmlsZUlkIiA6ICI0ZjNlY2Q1ODM0MWI0ODMwYWFjMWNjYmIxNWU2MmRjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfX0dhbWl4X18iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFkYWRiMjM4ZDNjMWFjM2Y3ODdkOTBhMmJlNDQzYTg2ZjBiNzI0ODJiMDVmNTEyNGJlMGNhMGI2MDJiMzkxYyIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      gravity:
+        enabled: false
+      spawned: true
+      controllable:
+        enabled: false
+        owner_required: false
+      commandtrait:
+        commands:
+          '0':
+            command: ag
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 3
+            n: -1
+            delay: 0
+        cooldowns:
+          75f41576-c9ae-3be1-9e5a-f6091a7fa867:
+            lastUsed:
+              ag: 1591092087
+          691ef3b6-d6b0-31d7-9dbc-091e50314b7a:
+            lastUsed:
+              ag: 1590069153
+          6b3dfd21-9bed-3b62-8d37-c7e553996799:
+            lastUsed:
+              ag: 1590242866
+          d68e2cb4-21c6-309a-a4e4-e80c38eafbdf:
+            lastUsed:
+              ag: 1591032516
+          ed7d134a-159e-304a-a5e7-d24ebca82cf9:
+            lastUsed:
+              ag: 1591102921
+          18fcf0ec-d716-3c68-9dbb-ffabcfbc52fe:
+            lastUsed:
+              ag: 1590689827
+          87aa1c2f-4ec1-34e7-bb7c-cf2fa4866364:
+            lastUsed:
+              ag: 1591027214
+          1705faf8-874d-3b25-ac93-13d149fc1527:
+            lastUsed:
+              ag: 1591184227
+          5bfe42ec-b88e-3087-9ec6-e71f355f4d68:
+            lastUsed:
+              ag: 1590406528
+      anchors:
+        list:
+          '0': -a;spigotworld;255.87664646574575;66.0;-109.89592802061647
+      speech: chat
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': '&bЯ слышал о том, что недалеко скрывается сам Бог моря!'
+          '1': '&9Прокачивай свой ранг гильдии и, возможно, ты станешь лучше меня!'
+          '2': '&eКак дела?'
+          '3': '&5Главное никогда не сдавайся!'
+          '4': '&2О, привет!'
+      owner:
+        owner: '123'
+        uuid: 75f41576-c9ae-3be1-9e5a-f6091a7fa867
+    traitnames: type,gravity,controllable,commandtrait,text,equipment,location,inventory,anchors,mounttrait,skintrait,speech,owner,scoreboardtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    metadata:
+      cached-skin-uuid-name: 0hmissed
+      cached-skin-uuid: b84afa82-688f-4eef-9837-b2a2b37207f6
+    name: §aТурист
+    uuid: bff97dce-fd3c-41ed-94c4-2448aa84b8a4
+    traits:
+      location:
+        bodyYaw: 37.515137
+        world: spigotworld
+        x: '266.1749'
+        y: '64.0'
+        z: '-120.401'
+        yaw: '37.5151'
+        pitch: '-6.1566'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: HrkK/9GAeXpucHghzDR6QruiRmk8Mocdve+xveLWGqX8tGpA5RQ7zx+rfJGRseLzSnFxtc7UrDGjxAEjJPzaOAToQ3/MRhLPbju4b0LKIgAZR1JrnJ/CrU6Ttd6aZ7+zVVIHeTz/YkxgNr7LYqT+27E8OnOk5Xui9RLYw9YbeWkWJ5ui24/axlV0ORfgaqPMT8d8xK92PPTaYSDATR0DFFdehVnh+S4iWDZJiAht3wod/hvak58lZxHb+FxbBK+pn/Ue+xwJi6RROdIEDkvwHmG/K21MzIfMsu1bt+Oa5wo45ehefX2b2pEOpXuIjqOT47wINkm27rbWORzwyqwZGia4U6LzdNvT4HHlYqbwC4R5OIZkyrK5euH1WGnn58M5hI2qZV9QlyqNLt75Hk0oGUssnKrGy4SeLbffbWLK2ueN/VrfZrDJunS0tdmzYBBSd+lFbE/pc2mQYRc/JjaJqVKrHC1Yv01K7Pd2LT81wq7CeNA1FbNUZPK0xo6XtW8a3UqrJ7e1wXIN9fgSwpWqPoxLE41ontMB+rXrlnyH2o/tUBu2t4yPpmbanYlIJr1ooNslwPCPPxU2uwUHRcPJ/JNaAV8iEOtync1LgSNmst5OPaIqzJ5pgQ6CXGPchvsx7ORt+lY44VRswOzSNTlUMs9euPeOLrboGstF9QCJChM=
+        skinName: 0hmissed
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5MDAwNTM5MTc5MywKICAicHJvZmlsZUlkIiA6ICJiODRhZmE4MjY4OGY0ZWVmOTgzN2IyYTJiMzcyMDdmNiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwaE1pc3NlZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jN2Y5MWZjZWJiNTdiYjk2NDkxMjUwMWE2MjNhMzhjOGNiY2ZhZmM0ZTg2MDQxNmM5ODgzYThkOTIwMDcwMjI4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+      gravity:
+        enabled: false
+      commandtrait:
+        commands:
+          '0':
+            command: kits
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 2
+            n: -1
+            delay: 5
+        cooldowns:
+          75f41576-c9ae-3be1-9e5a-f6091a7fa867:
+            lastUsed:
+              kits: 1591287074
+          691ef3b6-d6b0-31d7-9dbc-091e50314b7a:
+            lastUsed:
+              kits: 1590069452
+          6b3dfd21-9bed-3b62-8d37-c7e553996799:
+            lastUsed:
+              kits: 1590242719
+          d68e2cb4-21c6-309a-a4e4-e80c38eafbdf:
+            lastUsed:
+              kits: 1591110964
+          ed7d134a-159e-304a-a5e7-d24ebca82cf9:
+            lastUsed:
+              kits: 1591103896
+          18fcf0ec-d716-3c68-9dbb-ffabcfbc52fe:
+            lastUsed:
+              kits: 1590689840
+          87aa1c2f-4ec1-34e7-bb7c-cf2fa4866364:
+            lastUsed:
+              kits: 1591027123
+          1705faf8-874d-3b25-ac93-13d149fc1527:
+            lastUsed:
+              kits: 1591184381
+          9400ead5-ee0a-3129-9094-da3a73b0848b:
+            lastUsed:
+              kits: 1590586996
+          5bfe42ec-b88e-3087-9ec6-e71f355f4d68:
+            lastUsed:
+              kits: 1590005726
+      spawned: true
+      anchors:
+        list:
+          '0': -a;spigotworld;265.3735462042392;64.0;-120.19604899168034
+      speech: chat
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': '&2А ты слышал про стартовые наборы сервера? Гайд то очень полезный,
+            а набор инструментов, еда и лодка помогут тебе с началом игры на сервере!
+            &6(лодки можно ставить на спавне)'
+      owner:
+        owner: '123'
+        uuid: 75f41576-c9ae-3be1-9e5a-f6091a7fa867
+    traitnames: type,gravity,commandtrait,text,equipment,location,inventory,anchors,mounttrait,skintrait,speech,owner,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    metadata:
+      cached-skin-uuid-name: durnik70
+      cached-skin-uuid: 13941ba6-c4e5-447e-a6b3-92b954c8175e
+      protected: true
+      nameplate-visible: 'false'
+    name: §dКузнец
+    uuid: 46e0e2a5-d99d-447d-ae8d-a3eaf63de45c
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: AUwyntCdDYPh20bnEeYWpGRXg7Ka4u8JUrL/W+A2YLiZN3T8cJzPStjDnWXnE9iokhxdI0PXUKfMtmnhOZU6vjsZFjUQ4e++PPMmjz3LWRTZnKVh3Ow7I3XMlDIfaIfL30Vt7kn6CNJNNlEUoICO6S8QX8yjOLpCC99vV2mdacy1wFJr8S4v9m4efdFTDhUK82mZFkLZdFGn4KR4NkikNYDthDolPNzNwKXxU5HsMAU3k1h/x43+8Hc2YUzziVc1EAA2KTCTukIqKiaBhOA5wyeINqJ4A9nxa331SxV0kRVVJ4gPIDgMjPal5wAHcyW4nzRHWuJZ/KcAJJjBVZOTSAdeX4t7BxYOcz8jznz0BrcNgn4LtPCGHzWd4WDUNm9QTt3HHq+IEGWff5j/Uhn0D/xNl0cpAverRcC/J6i+4JJWmobY3ZeD12Z7SaqVR5clwfX0rBcKrP2cZc0RTHz6tLF35mcU9t/wFf885ITKVUBp7nwNOSC3/ModasZ5sQ99ZnTtHIshaA6Be82RMfvTr9d2SaPkNIyYfo7nGBhBkBVUWdeRr8ZrTG39cI9QOvU0qWjr4XZxxx8JMqhHbqeiBaOUSZVLRYoBE6W4J0Kr7Ak3z9nUmxZyTV2a9GFpdIcaiBuzMPJB96L8ucg0MJyt8/CfFKJyux7ngkHNrOtopWQ=
+        skinName: durnik70
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5MDg0NzgyNTAyNSwKICAicHJvZmlsZUlkIiA6ICIxMzk0MWJhNmM0ZTU0NDdlYTZiMzkyYjk1NGM4MTc1ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEdXJuaWs3MCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YzEyYzAxZmQyMWM1NGFlMTMyMjM1ZTg0ZDg3NzlmOWYyODk4Yjc4ZjI3ZGZhMTM2MzIyZGE5ZDc2MGM2NTJmIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: 65.71925
+        world: spigotworld
+        x: '269.0559'
+        y: '45.0'
+        z: '-114.8822'
+        yaw: '65.7193'
+        pitch: '0.0'
+      spawned: true
+      gravity:
+        enabled: false
+      controllable:
+        enabled: false
+        owner_required: false
+      speech: chat
+      type: PLAYER
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: iron_axe
+          amount: 1
+          durability: 0
+          mdata: 0
+        offhand:
+          type_namespace: minecraft
+          type_key: iron_ingot
+          amount: 1
+          durability: 0
+          mdata: 0
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: iron_axe
+          amount: 1
+          durability: 0
+          mdata: 0
+        '40':
+          type_namespace: minecraft
+          type_key: iron_ingot
+          amount: 1
+          durability: 0
+          mdata: 0
+      text:
+        delay: 0
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': '&cЧто ты тут делаешь?'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait: {}
+      owner:
+        owner: '123'
+        uuid: 75f41576-c9ae-3be1-9e5a-f6091a7fa867
+    traitnames: type,gravity,commandtrait,controllable,text,equipment,lookclose,location,inventory,mounttrait,skintrait,speech,owner,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

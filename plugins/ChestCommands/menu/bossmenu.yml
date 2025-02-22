@@ -1,0 +1,66 @@
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&4&oМеню боссов и данжей'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'bossmenu'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    id: compass
+    left-click: false
+    right-click: false
+
+
+default-icon:
+  NAME: '&c '
+  ID: red stained glass pane
+  KEEP-OPEN: true
+
+
+# Тут предметы
+
+mazecmd:
+  CLICK-REQUIREMENT:
+    ITEM: 'obsidian,48;diamond,20;iron_block,10;emerald_block,5;ender_pearl,5;heart_of_the_sea,3'
+  COMMAND: 'console: luckperms user {player} permission set multiverse.access.elitemobs_sewer_maze true;tell: &aВы купили доступ к &9Лабиринту'
+  NAME: '&bДоступ к &9Лабиринту'
+  LORE:
+    - '&9Портал в лабиринт находится на &c2393 64 927'
+    - '&eПроход стоит &548 обсидиана&e, &b20 алмазов&e, &c10 железных блоков&e,'
+    - '&a5 изумрудных блоков&e, &25 жемчугов эндера &eи&9 3 сердца моря'
+  ID: prismarine crystals
+  POSITION-X: 4
+  POSITION-Y: 1
+cathedralcmd:
+  CLICK-REQUIREMENT:
+    ITEM: 'obsidian,64;diamond,30;iron_block,15;emerald_block,10;ender_eye,5'
+  COMMAND: 'console: luckperms user {player} permission set multiverse.access.cathedral true;tell: &aВы купили доступ к &4Собору тьмы'
+  NAME: '&bДоступ к &4Собору тьмы'
+  LORE:
+    - '&cПортал к Собору тьмы находится на &45122 76 1667'
+    - '&eПроход стоит &564 обсидиана&e, &b30 алмазов&e, &c15 железных блоков&e,'
+    - '&a10 изумрудных блоков&e и &d5 ок эндера'
+  ID: wither skeleton skull
+  POSITION-X: 5
+  POSITION-Y: 1
+lichcmd:
+  CLICK-REQUIREMENT:
+    ITEM: 'obsidian,96;diamond,35;iron_block,20;emerald_block,25;ender_eye,8;end_crystal,5'
+  COMMAND: 'console: luckperms user {player} permission set multiverse.access.lich true;tell: &aВы купили доступ к &6Миру Лича'
+  NAME: '&bДоступ к &6Миру Лича'
+  LORE:
+    - '&eМестонахождение портала неизвестно..'
+    - '&eПроход стоит &596 обсидиана&e, &b35 алмазов&e, &c20 железных блоков&e,'
+    - '&a25 изумрудных блоков&e, &d8 ок эндера &eи &65 кристаллов энда'
+  ID: green stained glass
+  POSITION-X: 6
+  POSITION-Y: 1

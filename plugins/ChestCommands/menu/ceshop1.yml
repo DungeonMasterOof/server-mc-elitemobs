@@ -1,0 +1,70 @@
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&5Магазин кастомных чар'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'ceshop1'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    id: compass
+    left-click: false
+    right-click: false
+
+
+default-icon:
+  NAME: '&c '
+  ID: purple stained glass pane
+  KEEP-OPEN: true
+
+
+# Тут предметы
+
+commoncmd:
+  CLICK-REQUIREMENT:
+    ITEM: 'obsidian,5;diamond,3;iron_block,3'
+  COMMAND: 'console: ce lostbook Common 1 {player}'
+  NAME: '&2&lОбычная книга'
+  LORE:
+    - '&aКнига обычных кастомных чар.'
+    - '&eСтоит &55 обсидиана&e, &b3 алмаза &eи &c3 железных блока'
+  ID: book
+  ENCHANTMENT: durability,1
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+rarecmd:
+  CLICK-REQUIREMENT:
+    ITEM: 'obsidian,12;diamond,7;iron_block,4;emerald_block,1'
+  COMMAND: 'console: ce lostbook Rare 1 {player}'
+  NAME: '&1&lРедкая книга'
+  LORE:
+    - '&9Книга редких кастомных чар.'
+    - '&eСтоит &512 обсидиана&e, &b7 алмазов&e, &c4 железных блока &eи &a1 изумрудный блок.'
+  ID: book
+  ENCHANTMENT: durability,1
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+legendarycmd:
+  CLICK-REQUIREMENT:
+    ITEM: 'obsidian,25;diamond,13;iron_block,5;emerald_block,3'
+  COMMAND: 'console: ce lostbook Legendary 1 {player}'
+  NAME: '&6&lЛегендарная книга'
+  LORE:
+    - '&3Книга легендарных кастомных чар.'
+    - '&eСтоит &525 обсидиана&e, &b13 алмазов&e, &c5 железных блоков&e, &a3 изумрудных блока'
+  ID: book
+  ENCHANTMENT: durability,1
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1

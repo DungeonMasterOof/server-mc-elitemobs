@@ -1,0 +1,83 @@
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&5Магазин "У гоблина"'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'ceshop2'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    id: compass
+    left-click: false
+    right-click: false
+
+
+default-icon:
+  NAME: '&c '
+  ID: gray stained glass pane
+  KEEP-OPEN: true
+
+
+# Тут предметы
+
+bscrollcmd:
+  CLICK-REQUIREMENT:
+    ITEM: 'obsidian,20;diamond,4;bookshelf,5'
+  COMMAND: 'console: ce scroll black 1 {player} '
+  NAME: '&8Чёрный свиток'
+  LORE:
+    - '&7Чёрный свиток для снятия кастомных чар с предмета.'
+    - '&eСтоит &520 обсидиана&e, &b4 алмаза &eи &b5 книжных полок'
+  ID: ink_sac
+  ENCHANTMENT: durability,1
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+wscrollcmd:
+  CLICK-REQUIREMENT:
+    ITEM: 'obsidian,30;ender_eye,3;emerald_block,4'
+  COMMAND: 'console: ce scroll white 1 {player} '
+  NAME: '&f&LБелый свиток'
+  LORE:
+    - '&7Белый свиток для защиты предмета от разрушения кастомным чаром.'
+    - '&eСтоит &530 обсидиана&e, &d3 ока эндера &eи &a4 изумрудных блока'
+  ID: paper
+  ENCHANTMENT: durability,1
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+successcmd:
+  CLICK-REQUIREMENT:
+    ITEM: 'obsidian,10;ender_pearl,2;emerald_block,1;diamond,4'
+  COMMAND: 'console: ce dust success 1 {player} '
+  NAME: '&e&LПорошок удачи'
+  LORE:
+    - '&fПорошок для повышения шанса нанесения кастомного чара.'
+    - '&eСтоит &510 обсидиана&e, &22 жемчуга эндера&e, &b4 алмаза &eи &a1 изумрудный блок'
+  ID: sugar
+  ENCHANTMENT: durability,1
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+destroycmd:
+  CLICK-REQUIREMENT:
+    ITEM: 'obsidian,14;ender_pearl,3;emerald_block,2;diamond,2'
+  COMMAND: 'console: ce dust destroy 1 {player} '
+  NAME: '&f&LПорошок разрушения'
+  LORE:
+    - '&8Порошок для понижения шанса разрушения предмета кастомным чаром.'
+    - '&eСтоит &514 обсидиана&e, &23 жемчуга эндера&e, &b2 алмаза &eи &a2 изумрудных блока'
+  ID: gunpowder
+  ENCHANTMENT: durability,1
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
