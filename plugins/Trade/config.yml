@@ -1,0 +1,33 @@
+Prefix: '&c[&dТрейды&c] '
+PermissionTrade: trade.player
+PermissionReload: trade.admin
+Messages:
+  Trade: '%prefix%&7/&7trade &c<playerName> &7| &eОбмен с игроком'
+  Reload: '%prefix%&7/&7trade &creload &7| &eПерезагрузить конфиги'
+  TradeRequest: '%prefix%&7Запрос отправлен &a%player%&7!'
+  TradeRequestAlreadySent: '%prefix%&7Запрос на обмен уже был отправлен &a%player%&7!'
+  TradeRequestOtherLine1: '%prefix%&7Запрос на обмен от &a%player%&7!'
+  TradeRequestOtherLine2: '%prefix%&7Примите его, прописав &c/trade %player%&7!'
+  TradeRequestAccepted: '%prefix%&7Запрос на обмен был принят &a%player%&7!'
+  TradeRequestOtherAccepted: '%prefix%&7Вы приняли запрос на обмен от &a%player%&7!'
+  TradeRequestTimeOver: '%prefix%&7Запрос с &c%player% &7был отменён, время вышло&7!'
+  TradeOtherWorld: '%prefix%&4Запрос невозможно отправить, игрок в другом измерении&4!'
+  TradeHighRadius: '%prefix%&4Запрос невозможно отправить, игрок слишком далеко (расстояние
+    150 блоков)&4!'
+  NoSelfTrade: '%prefix%&cЧо ку-ку шоле..'
+  TradeCancelled: '%prefix%&cИнвентарь был закрыт, обмен собственно тоже.'
+  PlayerDoesNotExist: '%prefix%&cТакого чувака нет!'
+  Reloaded: '%prefix%&eКонфигурация &7была перезагружена.'
+TradeSettings:
+  BlockRadius: 150
+  AllowedTime: 20000
+  InventoryTitle: Вы                  Иной чел
+  Items:
+    Accept: '&aНажмите сюда чтобы принять запрос!'
+    Decline: '&cНажмите сюда чтобы отказать в обмене!'
+    Status:
+      Empty: '&7Статус неопределён..'
+      Accepted: '&aПринят!'
+      Declined: '&cОтвергнут!'
+      Traded: '&b > Обмен успешен <'
+  AutoClose: true
