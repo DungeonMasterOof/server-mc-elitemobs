@@ -1,0 +1,15 @@
+isEnabled: true
+chestType: CHEST
+facing: SOUTH
+location: elitemobs_sewer_maze,-204,68,-162,0,0
+chestTier: 3
+dropStyle: single
+restockTimer: 60
+lootList:
+- catacomb_tier_15_mimic_boss_shield.yml:1
+mimicChance: 0.5
+mimicCustomBossesList:
+- sewer_tier_30_invisibility_boss.yml:1
+restockTime: 1588020659
+effects:
+- PORTAL
