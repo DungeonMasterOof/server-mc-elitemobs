@@ -1,0 +1,40 @@
+isEnabled: true
+entityType: DROWNED
+name: '&5&lЗащитник Края'
+level: 70
+timeout: 0
+isPersistent: true
+healthMultiplier: 2.5
+damageMultiplier: 0.7
+helmet: DIAMOND_HELMET
+chestplate: CHAINMAIL_CHESTPLATE
+leggings: CHAINMAIL_LEGGINGS
+boots: IRON_BOOTS
+mainHand: TRIDENT
+offHand: DRAGON_BREATH
+isBaby: false
+powers:
+- invulnerability_knockback.yml
+- attack_fire.yml
+- attack_gravity.yml
+- attack_push.yml
+- bonus_loot.yml
+- invulnerability_fire.yml
+- invulnerability_knockback.yml
+spawnMessage: '&DОдин из Защитников Края пробудился!'
+deathMessage: '&AПервый защитник был убит $players..'
+escapeMessage: A test boss entity has escaped!
+uniqueLootList:
+- magmaguys_toothpick.yml:0.4
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+trails:
+- ENDER_PEARL
+onDamagedMessages:
+- Ай!
+spawnChance: 0.0
+isRegionalBoss: true
+spawnCooldown: 55
+leashRadius: 25.0
+spawnLocations:
+- spigotworld_the_end,109.55173945313588,55.2,-34.38025446503012,13.049907,298.7941

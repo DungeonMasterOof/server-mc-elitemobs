@@ -1,0 +1,20 @@
+isEnabled: true
+material: IRON_HELMET
+name: '&5Рога Лича'
+lore:
+- '&3Рога, пропитанные смертоносной'
+- '&3магией &4Лича..'
+- '&cНеплохой трофей, не так ли?'
+enchantments:
+- PROTECTION_ENVIRONMENTAL,89
+- PROTECTION_EXPLOSIONS,19
+- PROTECTION_FIRE,9
+- PROTECTION_PROJECTILE,14
+- DURABILITY,4
+- HUNTER,2
+- MENDING,1
+potionEffects:
+- DAMAGE_RESISTANCE,0,self,continuous
+scalability: fixed
+dropWeight: dynamic
+itemType: unique

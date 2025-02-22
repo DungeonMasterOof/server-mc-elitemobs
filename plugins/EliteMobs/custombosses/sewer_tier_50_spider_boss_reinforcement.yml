@@ -1,0 +1,10 @@
+isEnabled: true
+entityType: CAVE_SPIDER
+isBaby: true
+name: '&2Spiderling'
+level: 50
+isPersistent: false
+healthMultiplier: 0.1
+damageMultiplier: 0.1
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false

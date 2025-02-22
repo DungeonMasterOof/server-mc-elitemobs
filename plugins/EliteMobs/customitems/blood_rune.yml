@@ -1,0 +1,16 @@
+isEnabled: true
+material: RED_DYE
+name: '&4Руна Крови'
+lore:
+- '&cВас поглощает неодолимая'
+- '&cжажда крови...'
+- '&dДаёт пассивно +2 к урону'
+- '&eПрим. Сила не работает на элитных мобов'
+enchantments:
+- DAMAGE_ALL,2
+potionEffects:
+- INCREASE_DAMAGE,1,self,continuous
+- WEAKNESS,0,self,continuous
+dropWeight: dynamic
+itemType: unique
+scalability: fixed

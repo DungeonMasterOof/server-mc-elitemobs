@@ -1,0 +1,9 @@
+isEnabled: true
+entityType: GUARDIAN
+name: '&2Piranha Pricne'
+level: 500
+isPersistent: false
+healthMultiplier: 0.1
+damageMultiplier: 0.1
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false

@@ -1,0 +1,21 @@
+isEnabled: true
+material: DIAMOND_AXE
+name: '&2Адский боевой топор'
+lore:
+- '&4Боевой топор,'
+- '&4выкованный лучшими кузнецами Ада'
+enchantments:
+- DAMAGE_ALL,40
+- DAMAGE_UNDEAD,15
+- DURABILITY,1
+- FIRE_ASPECT,1
+- LOOT_BONUS_MOBS,2
+- CRITICAL_STRIKES,3
+- HUNTER,4
+- DIG_SPEED,2
+potionEffects:
+- BLINDNESS,0,target,onHit
+- FAST_DIGGING,0,self,onHit
+scalability: limited
+dropWeight: dynamic
+itemType: unique

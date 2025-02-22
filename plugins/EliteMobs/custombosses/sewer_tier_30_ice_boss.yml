@@ -1,0 +1,25 @@
+leashRadius: 17.0
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: STRAY
+isBaby: false
+name: '&2Ice Wraith'
+level: 30
+mainHand: BOW
+helmet: IRON_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: IRON_BOOTS
+powers:
+- movement_speed.yml
+- attack_freeze.yml
+- moonwalk.yml
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+spawnLocations:
+- elitemobs_sewer_maze,-191.9761542184153,99.2,-213.15663017042223,3.45013,-358.72626

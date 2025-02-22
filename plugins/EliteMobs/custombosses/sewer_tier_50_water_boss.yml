@@ -1,0 +1,21 @@
+leashRadius: 17.0
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: ELDER_GUARDIAN
+isBaby: false
+name: '&2Piranha King'
+level: 50
+mainHand: BOW
+powers:
+- attack_gravity.yml
+- skeleton_tracking_arrow.yml
+- summon:onhit:0.5:sewer_tier_50_water_boss_reinforcement.yml
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+spawnLocations:
+- elitemobs_sewer_maze,-269.82722138802404,77.78522040273157,-148.12939662724608,90.0,81.1117

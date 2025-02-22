@@ -1,0 +1,21 @@
+leashRadius: 17.0
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: RAVAGER
+name: '&2Sewer Monstrosity'
+level: 50
+powers:
+- attack_gravity.yml
+- skeleton_tracking_arrow.yml
+- attack_push.yml
+- invulnerability_arrow.yml
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+spawnLocations:
+- elitemobs_sewer_maze,-181.38150609740885,77.2,-34.811218393471194,0.44998324,-271.76276
+- elitemobs_sewer_maze,-181.12329192726926,77.2,-44.99463789495119,-1.2001798,-269.81287

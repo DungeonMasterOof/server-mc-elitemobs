@@ -1,0 +1,15 @@
+isEnabled: true
+material: GOLD_NUGGET
+name: '&eРуна Жадности'
+lore:
+- '&dЖадность питает вашу страсть,'
+- '&dНо съедает душу изнутри..'
+enchantments:
+- LOOT_BONUS_MOBS,1
+potionEffects:
+- UNLUCK,0,self,continuous
+- SPEED,0,self,continuous
+- JUMP,0,self,continuous
+scalability: fixed
+itemType: custom
+dropWeight: dynamic

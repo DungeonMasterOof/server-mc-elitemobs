@@ -1,0 +1,14 @@
+isEnabled: true
+material: LEATHER
+name: '&bЧарм Хамелеона'
+lore:
+- '&aЦветной Хамелеон может'
+- '&aзамаскироваться практически везде,'
+- '&aмедленно шагая по местности...'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- INVISIBILITY,0,self,continuous
+- SLOW,0,self,continuous
+dropWeight: '1'
+itemType: custom

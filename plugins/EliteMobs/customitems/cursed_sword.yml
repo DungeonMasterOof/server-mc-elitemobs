@@ -1,0 +1,23 @@
+isEnabled: true
+material: DIAMOND_SWORD
+name: '&4Проклятый меч'
+lore:
+- '&0&kТы всё равно не поймёшь.'
+- '&0&kThis world is but a lamb'
+- '&0&kto the slaughter'
+enchantments:
+- DAMAGE_ALL,80
+- DAMAGE_UNDEAD,40
+- DURABILITY,2
+- KNOCKBACK,1
+- FIRE_ASPECT,2
+- LOOT_BONUS_MOBS,4
+- CRITICAL_STRIKES,3
+- HUNTER,3
+- SWEEPING_EDGE,2
+potionEffects:
+- POISON,0,target,onHit
+- WITHER,1,target,onHit
+scalability: limited
+dropWeight: dynamic
+itemType: unique

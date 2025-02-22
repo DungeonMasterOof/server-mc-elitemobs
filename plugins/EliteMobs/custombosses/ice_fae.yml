@@ -1,0 +1,22 @@
+isEnabled: true
+entityType: VEX
+name: '&bЛедяная фея'
+level: dynamic
+timeout: 0
+isPersistent: false
+healthMultiplier: 0.3
+damageMultiplier: 0.3
+isBaby: false
+powers:
+- attack_freeze.yml
+uniqueLootList:
+- the_feller.yml:0.3
+- dream_rune.yml:0.2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+trails:
+- WATER_DROP
+spawnChance: 0.0
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0

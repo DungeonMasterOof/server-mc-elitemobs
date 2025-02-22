@@ -1,0 +1,12 @@
+isEnabled: true
+material: PAPER
+name: '&cЗаклинание метеоритного дождя'
+lore:
+- '&4Вызывает сильные разрушения.'
+- '&4Одноразовый.'
+enchantments:
+- METEOR_SHOWER,1
+potionEffects: []
+dropWeight: dynamic
+scalability: fixed
+itemType: unique

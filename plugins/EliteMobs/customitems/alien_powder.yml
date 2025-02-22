@@ -1,0 +1,15 @@
+isEnabled: true
+material: BLAZE_POWDER
+name: '&6Инопланетный огненный порошок'
+lore:
+- '&3Он пылает вечным огнём,'
+- '&3Согревая всё вокруг...'
+- '&3С ним вы чувствуете себя намного лучше в лаве'
+enchantments:
+- FIRE_ASPECT,3
+potionEffects:
+- FIRE_RESISTANCE,0,self,continuous
+- LUCK,1,self,continuous
+dropWeight: dynamic
+itemType: unique
+scalability: fixed

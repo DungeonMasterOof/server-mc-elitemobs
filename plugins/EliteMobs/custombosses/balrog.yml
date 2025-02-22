@@ -1,0 +1,30 @@
+isPersistent: false
+isEnabled: true
+entityType: SILVERFISH
+name: '&cБалрог'
+level: dynamic
+timeout: 0
+healthMultiplier: 1.75
+damageMultiplier: 1.0
+isBaby: false
+powers:
+- summon_raug.yml
+deathMessages:
+- '&dВ честь победы над боссом вам выдан 1 алмаз'
+uniqueLootList:
+- god_pickaxe_fake.yml:1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+trails:
+- SMOKE_LARGE
+- SMOKE_LARGE
+- SMOKE_LARGE
+- SMOKE_LARGE
+- FLAME
+- FLAME
+spawnChance: 0.0
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0
+onDeathCommands:
+- give $players diamond 1

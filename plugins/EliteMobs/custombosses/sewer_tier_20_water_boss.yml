@@ -1,0 +1,20 @@
+leashRadius: 20.0
+followRange: 10
+isRegionalBoss: true
+spawnCooldown: 4
+isEnabled: true
+entityType: SKELETON
+name: '&1Forgotten Hero'
+level: 20
+powers:
+- attack_fire.yml
+- skeleton_tracking_arrow.yml
+isPersistent: true
+mainHand: BOW
+helmet: GOLDEN_HELMET
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+spawnLocations:
+- elitemobs_sewer_maze,-313.9260334359955,98.7,-159.84152085195993,32.399963,94.82373

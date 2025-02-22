@@ -1,0 +1,24 @@
+leashRadius: 17.0
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: ZOMBIE
+isBaby: false
+name: '&2Mjolnir'
+helmet: IRON_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: IRON_BOOTS
+level: 50
+powers:
+- gold_explosion.yml
+- attack_lightning.yml
+- invulnerability_arrow.yml
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+spawnLocations:
+- elitemobs_sewer_maze,-264.32592421906116,120.2,-92.70854171861606,2.699728,180.64389

@@ -1,0 +1,38 @@
+leashRadius: 50.0
+followRange: 20
+isRegionalBoss: true
+spawnCooldown: 120
+isEnabled: true
+entityType: DROWNED
+helmet: GOLDEN_HELMET
+chestplate: DIAMOND_CHESTPLATE
+leggings: DIAMOND_LEGGINGS
+boots: DIAMOND_BOOTS
+name: '&4Drowned King'
+level: 70
+powers:
+- attack_lightning.yml
+- invulnerability_arrow.yml
+- movement_speed.yml
+- flame_pyre.yml
+- hyper_loot.yml
+- summon:onhit:0.5:sewer_tier_70_boss_reinforcement.yml
+isPersistent: true
+mainHand: TRIDENT
+healthMultiplier: 10
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+spawnMessage: '&cThe sewers echo with the clamor of a returned king...'
+deathMessage: '&2The Drowned King has been slain!'
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&4The Drowned King has been slain!'
+- '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+- '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+- '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+- '&4Slayers: $players'
+- '&e&l---------------------------------------------'
+escapeMessage: '&2The sewers grow quiet, for now...'
+spawnLocations:
+- elitemobs_sewer_maze,-384.5226761755766,97.7,-171.92177405623877,-4.950092,269.88293

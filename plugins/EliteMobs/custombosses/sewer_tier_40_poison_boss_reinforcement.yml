@@ -1,0 +1,12 @@
+isEnabled: true
+entityType: HUSK
+isBaby: true
+name: '&2Fallen Gardener'
+level: 40
+mainHand: WOODEN_HOE
+isPersistent: false
+healthMultiplier: 0.1
+damageMultiplier: 0.1
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+spawnLocations:

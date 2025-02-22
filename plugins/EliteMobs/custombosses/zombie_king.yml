@@ -1,0 +1,45 @@
+isEnabled: true
+entityType: ZOMBIE
+name: '&4&lКороль зомби'
+level: dynamic
+timeout: 30
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 4.0
+helmet: DIAMOND_HELMET
+chestplate: DIAMOND_CHESTPLATE
+leggings: DIAMOND_LEGGINGS
+boots: DIAMOND_BOOTS
+mainHand: GOLDEN_AXE
+isBaby: false
+powers:
+- flame_pyre.yml
+- flamethrower.yml
+- summon_the_returned.yml
+- spirit_walk.yml
+spawnMessage: '&cВ мире пробудился король зомби..'
+deathMessage: '&aКороль зомби был убит $players!'
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&4Король зомби повержен!'
+- '&c&l    Топ урон: $damager1name &cс $damager1damage урона!'
+- '&6&l    Второй по урону: $damager2name &6с $damager2damage урона!'
+- '&e&l    Третий по урону: $damager3name &eс $damager3damage урона!'
+- '&aУчастники: $players'
+- '&e&l---------------------------------------------'
+- '&dВ честь победы над боссом вам выдан 1 алмаз'
+escapeMessage: '&4Король зомби скрылся среди нежити..'
+locationMessage: '&cКороль зомби: $distance блоков от вас'
+uniqueLootList:
+- zombie_kings_axe.yml:1
+- blood_rune.yml:0.35
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+trails:
+- FLAME
+spawnChance: 0.0
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0
+onDeathCommands:
+- give $players diamond 1

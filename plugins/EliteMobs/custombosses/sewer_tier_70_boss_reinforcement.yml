@@ -1,0 +1,13 @@
+isEnabled: true
+entityType: DROWNED
+name: '&4Drowned One'
+level: 70
+powers:
+- attack_poison.yml
+- attack_vacuum.yml
+isPersistent: true
+mainHand: TRIDENT
+healthMultiplier: 0.1
+damageMultiplier: 0.1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true

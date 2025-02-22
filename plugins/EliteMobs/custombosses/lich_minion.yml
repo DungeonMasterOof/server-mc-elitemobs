@@ -1,0 +1,33 @@
+isEnabled: true
+entityType: ZOMBIE
+name: '&cПрислужник Лича'
+level: 145
+timeout: 0
+isPersistent: false
+healthMultiplier: 7.5
+damageMultiplier: 0.9
+helmet: DIAMOND_HELMET
+chestplate: CHAINMAIL_CHESTPLATE
+leggings: LEATHER_LEGGINGS
+boots: IRON_BOOTS
+mainHand: DEBUG_STICK
+isBaby: false
+powers:
+- attack_wither.yml
+- attack_push.yml
+- attack_confusing.yml
+- attack_blinding.yml
+- invulnerability_fire.yml
+- movement_speed.yml
+- moonwalk.yml
+- invulnerability_arrow.yml
+- implosion.yml
+uniqueLootList:
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+trails:
+- CLOUD
+spawnChance: 0.0
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0

@@ -1,0 +1,21 @@
+leashRadius: 13.0
+followRange: 8
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: SPIDER
+name: '&2Ancient Crawler'
+level: 50
+powers:
+- attack_web.yml
+- movement_speed.yml
+- attack_fire.yml
+- invulnerability_fire.yml
+- summon:onhit:0.5:sewer_tier_50_spider_boss_reinforcement.yml
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+spawnLocations:
+- elitemobs_sewer_maze,-135.95494490562652,138.2,-256.2132715786428,4.3500104,14.312317

@@ -1,0 +1,18 @@
+leashRadius: 15.0
+followRange: 10
+isRegionalBoss: true
+spawnCooldown: 4
+isEnabled: true
+entityType: BLAZE
+name: '&1Spark'
+level: 20
+powers:
+- attack_gravity.yml
+- movement_speed.yml
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+spawnLocations:
+- elitemobs_sewer_maze,-150.208454676572,99.7,-63.99354549107818,1.2000647,-90.55658

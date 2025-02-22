@@ -1,0 +1,39 @@
+isEnabled: true
+entityType: SKELETON
+name: '&4&lЗащитник Края'
+level: 70
+timeout: 0
+isPersistent: true
+healthMultiplier: 3.5
+damageMultiplier: 0.7
+helmet: DIAMOND_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: DIAMOND_BOOTS
+mainHand: DIAMOND_SWORD
+offHand: SHIELD
+isBaby: false
+powers:
+- invulnerability_knockback.yml
+- attack_wither.yml
+- attack_gravity.yml
+- attack_weakness.yml
+- bonus_loot.yml
+- invulnerability_fire.yml
+- invulnerability_knockback.yml
+- invulnerability_arrow.yml
+spawnMessage: '&DОдин из Защитников Края пробудился!'
+deathMessage: '&AВторой защитник был убит $players..'
+escapeMessage: A test boss entity has escaped!
+uniqueLootList:
+- magmaguys_toothpick.yml:0.4
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+trails:
+- PORTAL
+spawnChance: 0.0
+isRegionalBoss: true
+spawnCooldown: 55
+leashRadius: 45.0
+spawnLocations:
+- spigotworld_the_end,109.62388762348992,55.2,-20.54252934909348,12.8765955,247.9956

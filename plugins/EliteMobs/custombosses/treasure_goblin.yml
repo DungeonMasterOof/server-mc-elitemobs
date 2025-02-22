@@ -1,0 +1,43 @@
+isEnabled: true
+entityType: ZOMBIE
+name: '&e&lГоблин с сокровищами'
+level: dynamic
+timeout: 30
+isPersistent: true
+healthMultiplier: 4.5
+damageMultiplier: 4.0
+helmet: GOLDEN_HELMET
+chestplate: GOLDEN_CHESTPLATE
+leggings: GOLDEN_LEGGINGS
+boots: GOLDEN_BOOTS
+isBaby: true
+powers:
+- gold_explosion.yml
+- gold_shotgun.yml
+- hyper_loot.yml
+- spirit_walk.yml
+spawnMessage: '&cГоблин с сокровищами был обнаружен!'
+deathMessage: '&aГоблин с сокровищами был убит $players!'
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&eАтака гоблина была отражена!'
+- '&c&l    Топ урон: $damager1name &cс $damager1damage урона!'
+- '&6&l    Второй по урону: $damager2name &6с $damager2damage урона!'
+- '&e&l    Третий по урону: $damager3name &eс $damager3damage урона!'
+- '&aУчастники: $players'
+- '&e&l---------------------------------------------'
+- '&dВ честь победы над боссом вам выдан 1 алмаз'
+escapeMessage: '&4Гоблин с сокровищами убежал!'
+locationMessage: '&cГоблин: $distance блоков от вас'
+uniqueLootList:
+- greed_rune.yml:0.35
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+trails:
+- GOLD_NUGGET
+spawnChance: 0.0
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0
+onDeathCommands:
+- give $players diamond 1

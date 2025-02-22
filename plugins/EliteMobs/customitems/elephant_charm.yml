@@ -1,0 +1,13 @@
+isEnabled: true
+material: ANVIL
+name: '&cЧарм Слона'
+lore:
+- '&2Получи силу мышц Слона,'
+- '&2ценой своей скорости!'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- INCREASE_DAMAGE,1,self,onHit
+- SLOW,3,self,onHit
+dropWeight: '1'
+itemType: custom

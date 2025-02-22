@@ -1,0 +1,20 @@
+leashRadius: 17.0
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: WITHER_SKELETON
+isBaby: false
+name: '&2Withered Corpse'
+level: 20
+mainHand: BOW
+powers:
+- attack_blinding.yml
+- invulnerability_arrow.yml
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+spawnLocations:
+- elitemobs_sewer_maze,-234.08639788478445,100.7,-88.03770652474532,7.350785,88.8714

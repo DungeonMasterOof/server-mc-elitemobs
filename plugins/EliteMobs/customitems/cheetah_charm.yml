@@ -1,0 +1,14 @@
+isEnabled: true
+material: GOLDEN_BOOTS
+name: '&6Чарм Гепарда'
+lore:
+- '&eГепарды могут достигать скорости'
+- '&e120 км/ч... за всего лишь 60'
+- '&eсекунд. Попробуй догони!'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- SPEED,2,self,continuous
+- HUNGER,0,self,continuous
+dropWeight: '1'
+itemType: custom

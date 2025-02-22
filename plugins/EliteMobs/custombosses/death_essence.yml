@@ -1,0 +1,27 @@
+isEnabled: true
+entityType: HUSK
+name: '&5&lЭссенция смерти'
+level: 115
+timeout: 0
+isPersistent: false
+healthMultiplier: 0.45
+damageMultiplier: 0.6
+helmet: GREEN_CONCRETE_POWDER
+isBaby: false
+powers:
+- invulnerability_knockback.yml
+- attack_wither.yml
+- attack_confusing.yml
+- invulnerability_fire.yml
+- invisibility.yml
+- movement_speed.yml
+uniqueLootList:
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+trails:
+- CAMPFIRE_COSY_SMOKE
+spawnChance: 0.0
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0
+

@@ -1,0 +1,12 @@
+isEnabled: true
+material: LEATHER
+name: '&bЧарм Саламандры'
+lore:
+- '&6Настолько же горяч,'
+- '&6как Panda_YaY!'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- FIRE_RESISTANCE,0,self,continuous
+dropWeight: '1'
+itemType: custom

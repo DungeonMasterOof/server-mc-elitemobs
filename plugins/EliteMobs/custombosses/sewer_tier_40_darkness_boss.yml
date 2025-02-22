@@ -1,0 +1,18 @@
+leashRadius: 17.0
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: EVOKER
+isBaby: false
+name: '&2The Shadowmaster'
+level: 40
+powers:
+- summon:onhit:0.5:sewer_tier_40_darkness_boss_reinforcement.yml
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+spawnLocations:
+- elitemobs_sewer_maze,-203.94662893478093,144.2,-58.21767066751884,4.800044,183.72278

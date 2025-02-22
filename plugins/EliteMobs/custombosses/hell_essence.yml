@@ -1,0 +1,27 @@
+isEnabled: true
+entityType: ZOMBIE
+name: '&4&lЭссенция ада'
+level: dynamic
+timeout: 0
+isPersistent: false
+healthMultiplier: 0.3
+damageMultiplier: 0.7
+helmet: RED_CONCRETE_POWDER
+isBaby: false
+powers:
+- invulnerability_knockback.yml
+- attack_fire.yml
+- attack_push.yml
+- invulnerability_fire.yml
+- invisibility.yml
+- movement_speed.yml
+uniqueLootList:
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+trails:
+- FLAME
+spawnChance: 0.0
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0
+

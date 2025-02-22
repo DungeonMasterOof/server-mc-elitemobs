@@ -1,0 +1,18 @@
+isEnabled: true
+material: STICK
+name: '&bЧарм вампиризма'
+lore:
+- '&aНикто не знает, как он образовался,'
+- '&aи никто не должен забывать,'
+- '&cнасколько он опасен...'
+- '&dПозволяет раз в 18 секунд восстановить 1.5 сердца'
+- '&dНо несовместим с людской кровью'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- REGENERATION,1,self,onHit
+- SLOW,0,self,onHit
+- HUNGER,1,self,onHit
+- WEAKNESS,0,self,onHit
+dropWeight: '1'
+itemType: custom

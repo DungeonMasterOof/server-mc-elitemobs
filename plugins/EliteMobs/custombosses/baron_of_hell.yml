@@ -1,0 +1,39 @@
+isEnabled: true
+entityType: PIG_ZOMBIE
+name: '&5Барон Ада'
+level: dynamic
+timeout: 20
+isPersistent: true
+healthMultiplier: 5.0
+damageMultiplier: 2.5
+chestplate: CHAINMAIL_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: GOLDEN_BOOTS
+mainHand: DIAMOND_AXE
+offHand: DIAMOND_AXE
+isBaby: false
+powers:
+- attack_vacuum.yml
+- attack_push.yml
+- attack_weakness.yml
+- attack_blinding.yml
+- attack_wither.yml
+- movement_speed.yml
+- bonus_loot.yml
+- flamethrower.yml
+- implosion.yml
+- summon:onHit:0.8:hell_essence.yml
+spawnMessage: '&4Вы слышите разъярённые крики...'
+deathMessage: '&eБарон ада был убит $players!'
+escapeMessage: '&cБарон скрылся, вероятно заточить топоры..'
+locationMessage: 'Барон: $location'
+uniqueLootList:
+- hell_axe.yml:0.35
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+trails:
+- VILLAGER_ANGRY
+spawnChance: 0.0025
+isRegionalBoss: false
+spawnCooldown: 0.0
+leashRadius: 0.0

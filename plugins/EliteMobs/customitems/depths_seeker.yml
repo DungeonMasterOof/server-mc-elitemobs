@@ -1,0 +1,20 @@
+isEnabled: true
+material: FISHING_ROD
+name: '&2Искатель глубин'
+lore:
+- '&9Он пришёл с неизмеримых глубин,'
+- '&9И был выбит с сильного монстра,'
+- '&9Не стоит говорить о том,'
+- '&9Что эта удочка смогла повидать.'
+enchantments:
+- LURE,3
+- LUCK,3
+- DURABILITY,7
+- FIRE_ASPECT,1
+- VANISHING_CURSE,1
+potionEffects:
+- WATER_BREATHING,0,self,continuous
+- LUCK,0,self,continuous
+dropWeight: dynamic
+scalability: limited
+itemType: unique

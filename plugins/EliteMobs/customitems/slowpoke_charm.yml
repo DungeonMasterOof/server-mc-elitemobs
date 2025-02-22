@@ -1,0 +1,13 @@
+isEnabled: true
+material: CARROT_ON_A_STICK
+name: '&bЧарм запутанности'
+lore:
+- '&aПросто понадеемся, что он'
+- '&aне ударит себя в своей запутанности...'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- SLOW,0,self,onHit
+- CONFUSION,1,target,onHit
+dropWeight: '1'
+itemType: custom

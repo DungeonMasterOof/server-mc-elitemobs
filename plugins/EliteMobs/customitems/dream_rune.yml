@@ -1,0 +1,14 @@
+isEnabled: true
+material: PHANTOM_MEMBRANE
+name: '&9Руна Снов'
+lore:
+- '&bТеперь сон - одно удовольствие'
+- '&bС этой руной вы чувствуете себя пёрышком'
+enchantments:
+- LOOT_BONUS_BLOCKS,1
+potionEffects:
+- SLOW_FALLING,0,self,continuous
+- FAST_DIGGING,0,self,continuous
+dropWeight: dynamic
+itemType: unique
+scalability: fixed

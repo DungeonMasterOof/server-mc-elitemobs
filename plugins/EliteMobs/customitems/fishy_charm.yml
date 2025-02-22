@@ -1,0 +1,12 @@
+isEnabled: true
+material: COD
+name: '&bЧарм Рыбки'
+lore:
+- '&3Что-то с этим чармом'
+- '&3точно не так...'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- WATER_BREATHING,0,self,continuous
+dropWeight: '1'
+itemType: custom

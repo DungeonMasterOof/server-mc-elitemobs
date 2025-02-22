@@ -1,0 +1,12 @@
+isEnabled: true
+material: RABBIT_FOOT
+name: '&bЧарм Кролика'
+lore:
+- '&bТеперь любое расстояние'
+- '&bэто лишь пара прыжков!'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- JUMP,2,self,continuous
+dropWeight: '1'
+itemType: custom

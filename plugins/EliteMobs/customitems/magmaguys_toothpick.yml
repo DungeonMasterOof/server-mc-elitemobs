@@ -1,0 +1,10 @@
+isEnabled: true
+material: WOODEN_SWORD
+name: '&cЗубочистка &4Panda_YaY'
+lore:
+- '&dПочти в идеальном состоянии!'
+enchantments:
+- VANISHING_CURSE,1
+dropWeight: dynamic
+scalability: scalable
+itemType: custom

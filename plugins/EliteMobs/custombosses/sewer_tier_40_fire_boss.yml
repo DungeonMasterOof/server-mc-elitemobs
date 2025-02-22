@@ -1,0 +1,22 @@
+leashRadius: 17.0
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: PIG_ZOMBIE
+isBaby: false
+name: '&2The Grill Master'
+level: 40
+mainHand: GOLDEN_AXE
+helmet: LEATHER_HELMET
+powers:
+- attack_fire.yml
+- gold_shotgun.yml
+- summon:onhit:0.5:sewer_tier_40_fire_boss_reinforcement.yml
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+spawnLocations:
+- elitemobs_sewer_maze,-216.4954161603577,121.2,-335.2978014685355,9.904057E-5,359.1189

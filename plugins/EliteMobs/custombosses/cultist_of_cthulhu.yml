@@ -1,0 +1,50 @@
+isEnabled: true
+entityType: WITHER_SKELETON
+name: '&4Культист Ктулху'
+level: 75
+timeout: 45
+isPersistent: true
+healthMultiplier: 35.0
+damageMultiplier: 1.0
+helmet: LEATHER_HELMET
+chestplate: LEATHER_CHESTPLATE
+leggings: LEATHER_LEGGINGS
+boots: LEATHER_BOOTS
+mainHand: BOW
+isBaby: false
+powers:
+- invulnerability_knockback.yml
+- invulnerability_arrow.yml
+- attack_vacuum.yml
+- attack_weakness.yml
+- attack_blinding.yml
+- attack_gravity.yml
+- hyper_loot.yml
+- bullet_hell.yml
+- flamethrower.yml
+- skeleton_pillar.yml
+- summon_the_returned.yml
+- flame_pyre.yml
+spawnMessage: '&cКультист вызывает Ктулху!'
+deathMessage: '&2Призыв был прерван $players!'
+escapeMessage: '&2Культист завершил призыв!'
+locationMessage: 'Культист: $location'
+uniqueLootList:
+- magmaguys_toothpick.yml:1
+- cursed_sword.yml:1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+trails:
+- PORTAL
+onDamageMessages:
+- Глупцы!
+- За Ктулху!
+- Никто не может противостоять Ктулху!
+- Взгяни во тьму...
+spawnChance: 0.0
+isRegionalBoss: true
+spawnLocation: 115_world,61,121,277,-90,0
+spawnCooldown: 90
+leashRadius: 15
+spawnLocations:
+- cathedral,9.418527579767158,34.2,19.475116729948777,87.70872,179.66705

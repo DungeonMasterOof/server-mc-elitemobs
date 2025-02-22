@@ -1,0 +1,13 @@
+isEnabled: true
+material: POISONOUS_POTATO
+name: '&bЧарм Скорпиона'
+lore:
+- '&aПорхай как бабочка,'
+- '&aжаль как пчела,'
+- '&aотравляй как картоха!'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- POISON,0,target,onHit
+dropWeight: '1'
+itemType: custom

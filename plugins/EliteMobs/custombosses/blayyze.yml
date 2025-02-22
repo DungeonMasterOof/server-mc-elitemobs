@@ -1,0 +1,41 @@
+isEnabled: true
+entityType: BLAZE
+name: '&6Блейзи'
+level: dynamic
+timeout: 30
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 0.5
+isBaby: false
+powers:
+- meteor_shower.yml
+- summon_embers.yml
+- bullet_hell.yml
+- spirit_walk.yml
+spawnMessage: '&cРядом замечена инопланетная активность...'
+deathMessage: '&6$players провели первый контакт.'
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&6Атака Блейзи была отражена!'
+- '&c&l    Топ урон: $damager1name &cс $damager1damage урона!'
+- '&6&l    Второй по урону: $damager2name &6с $damager2damage урона!'
+- '&e&l    Третий по урону: $damager3name &eс $damager3damage урона!'
+- '&aУчастники: $players'
+- '&e&l---------------------------------------------'
+- '&dВ честь победы над боссом вам выдан 1 алмаз'
+escapeMessage: '&6Пришельца забрали на зону 51!'
+locationMessage: '&6????: $distance блоков от вас'
+uniqueLootList:
+- meteor_shower_scroll.yml:1
+- magmaborn.yml:0.55
+- alien_powder.yml:0.35
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+trails:
+- FIRE_CHARGE
+spawnChance: 0.08
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0
+onDeathCommands:
+- give $players diamond 1

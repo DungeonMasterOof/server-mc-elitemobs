@@ -1,0 +1,52 @@
+isEnabled: true
+entityType: SKELETON
+name: '&6&lЛич'
+level: 175
+timeout: 0
+isPersistent: true
+healthMultiplier: 40.0
+damageMultiplier: 2.0
+helmet: IRON_HELMET
+chestplate: LEATHER_CHESTPLATE
+leggings: LEATHER_LEGGINGS
+boots: LEATHER_BOOTS
+mainHand: IRON_SWORD
+offHand: GREEN_STAINED_GLASS
+isBaby: false
+powers:
+- invulnerability_knockback.yml
+- invulnerability_fall_damage.yml
+- attack_confusing.yml
+- attack_vacuum.yml
+- attack_weakness.yml
+- attack_blinding.yml
+- attack_wither.yml
+- skeleton_tracking_arrow.yml
+- hyper_loot.yml
+- bullet_hell.yml
+- flamethrower.yml
+- flame_pyre.yml
+- attack_freeze.yml
+- attack_poison.yml
+- summon_the_returned.yml
+- summon:onHit:0.85:death_essence.yml
+- summon:once:lich_minion.yml
+spawnMessage: '&cКажется, что всё в мире гниёт..'
+deathMessage: '&2Мир был спасён $players!'
+escapeMessage: '&2Лич приступил к другой Вселенной!'
+locationMessage: 'Лич: $location'
+uniqueLootList:
+- lich_horns.yml:1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+trails:
+- FLAME
+onDamagedMessages:
+- Присоединись ко мне..
+- Подчиняйся мне...
+spawnChance: 0.0
+isRegionalBoss: true
+spawnCooldown: 120
+leashRadius: 75
+spawnLocations:
+- lich,17.450736785384635,4.2,-131.60302240868106,1.8591539,0.2084961

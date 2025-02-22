@@ -1,0 +1,20 @@
+leashRadius: 17.0
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: ILLUSIONER
+isBaby: false
+name: '&2Shadow Archer'
+level: 30
+mainHand: BOW
+powers:
+- movement_speed.yml
+- zombie_bloat.yml
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+spawnLocations:
+- elitemobs_sewer_maze,-113.52902739347195,78.2,-147.96380529177705,9.900244,267.80365

@@ -1,0 +1,13 @@
+isEnabled: true
+material: TOTEM_OF_UNDYING
+name: '&4Чарм Берсерка'
+lore:
+- '&cПотеряй себя перед'
+- '&cошеломляющими неприятностями'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- SLOW,0,self,continuous
+- FAST_DIGGING,0,self,continuous
+dropWeight: '1'
+itemType: custom
