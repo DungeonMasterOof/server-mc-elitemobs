@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: SILVERFISH
+name: '&6Элитная &eЧешуйница &2$level &6уровня'
+deathMessages:
+- $player &cперепутал $entity &cс каменным блоком!

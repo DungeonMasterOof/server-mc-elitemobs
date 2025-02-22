@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: ELDER_GUARDIAN
+name: '&6Элитный &eДревний Страж &2$level &6уровня'
+deathMessages:
+- $entity &cне позволил $player &cисследовать глубины!

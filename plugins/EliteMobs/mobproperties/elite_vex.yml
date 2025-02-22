@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: VEX
+name: '&6Элитная &eВредина &2$level &6уровня'
+deathMessages:
+- $entity &cбыл слишком вреден с $player&c!

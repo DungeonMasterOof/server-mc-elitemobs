@@ -1,0 +1,6 @@
+isEnabled: true
+entityType: WITHER_SKELETON
+name: '&6Элитный &eВизер Скелет &2$level &6уровня'
+deathMessages:
+- $entity &cиссушил $player&c!
+- $entity &cпревратил $player &cв сушёный финик!

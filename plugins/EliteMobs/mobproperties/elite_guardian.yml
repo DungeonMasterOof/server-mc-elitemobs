@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: GUARDIAN
+name: '&6Элитный &eСтраж &2$level &6уровня'
+deathMessages:
+- $entity &cне позволил $player &cисследовать глубины моря!

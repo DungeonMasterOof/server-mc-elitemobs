@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: EVOKER
+name: '&6Элитный &eЗаклинатель &2$level &6уровня'
+deathMessages:
+- $player &cбыл зачарован $entity&c!

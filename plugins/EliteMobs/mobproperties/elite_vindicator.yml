@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: VINDICATOR
+name: '&6Элитный &eПоборник &2$level &6уровня'
+deathMessages:
+- $entity &cи $player &cсравнили свои умения в сражениях!

@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: HUSK
+name: '&6Элитный &eКадавр &2$level &6уровня'
+deathMessages:
+- $player &cбыл закусан $entity&c!

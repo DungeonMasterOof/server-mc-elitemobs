@@ -1,0 +1,6 @@
+isEnabled: true
+entityType: SKELETON
+name: '&6Элитный &eСкелет &2$level &6уровня'
+deathMessages:
+- $player &cстал игольницей для $entity&c!
+- $entity &cзахотел померяться костями с $player&c!

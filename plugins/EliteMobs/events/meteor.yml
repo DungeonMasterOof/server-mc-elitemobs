@@ -1,0 +1,4 @@
+isEnabled: false
+weight: 20.0
+dropsBlocks: true
+eventAnnouncementMessage: '&6Странный метеорит приземлился на $location!'

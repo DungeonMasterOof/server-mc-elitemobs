@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: RAVAGER
+name: '&6Элитный &eРазоритель &2$level &6уровня'
+deathMessages:
+- $entity &cпоказал $player &cсвою ярость!

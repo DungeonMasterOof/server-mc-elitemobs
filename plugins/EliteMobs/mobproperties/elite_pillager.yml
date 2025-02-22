@@ -1,0 +1,6 @@
+isEnabled: true
+entityType: PILLAGER
+name: '&6Элитный &eРазбойник &2$level &6уровня'
+deathMessages:
+- $entity &cчпокнул $player&c!
+- $entity &cграбанул $player&c!

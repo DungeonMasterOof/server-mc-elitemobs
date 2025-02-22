@@ -1,0 +1,7 @@
+isEnabled: true
+entityType: ENDERMAN
+name: '&6Элитный &eЭндермен &2$level &6уровня'
+deathMessages:
+- $entity &cотправил $player &cпрямиком в бездну!
+- $player &cкосо посмотрел на $entity!
+- $player &cи $entity &cстали лучшими друзьями!

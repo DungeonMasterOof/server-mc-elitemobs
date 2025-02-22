@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: BLAZE
+name: '&6Элитный &eИфрит &2$level &6уровня'
+deathMessages:
+- $player &cбыл сожжён $entity!

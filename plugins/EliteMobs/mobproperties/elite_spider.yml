@@ -1,0 +1,6 @@
+isEnabled: true
+entityType: SPIDER
+name: '&6Элитный &eПаук &2$level &6уровня'
+deathMessages:
+- $player &cстал вкусным обедом в паутине $entity&c!
+- $entity &cуничтожил $player&c!

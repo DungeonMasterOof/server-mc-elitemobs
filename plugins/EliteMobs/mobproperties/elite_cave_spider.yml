@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: CAVE_SPIDER
+name: '&6Элитный &eПещерный Паук &2$level &6уровня'
+deathMessages:
+- $player &cстал прямоугольным в паутине $entity!

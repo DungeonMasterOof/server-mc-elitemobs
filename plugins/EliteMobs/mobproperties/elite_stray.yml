@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: STRAY
+name: '&6Элитный &eЗимогор &2$level &6уровня'
+deathMessages:
+- $player &cбыл заморожен $entity&c!

@@ -1,0 +1,6 @@
+isEnabled: true
+entityType: ZOMBIE
+name: '&6Элитный &eЗомби &2$level &6уровня'
+deathMessages:
+- $player &cбыл уничтожен $entity&c!
+- $entity &cполакомился мозгами $player&c!

@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: ILLUSIONER
+name: '&6Элитный &eИллюзионист &2$level &6уровня'
+deathMessages:
+- $player&c запутался в иллюзиях $entity&c!

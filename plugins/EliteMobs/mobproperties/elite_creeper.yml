@@ -1,0 +1,6 @@
+isEnabled: true
+entityType: CREEPER
+name: '&6Элитный &eКрипер &2$level &6уровня'
+deathMessages:
+- $player &cбыл подло взорван $entity!
+- $entity &cтолько что подорвал пукан $player&c!

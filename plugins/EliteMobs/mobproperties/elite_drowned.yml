@@ -1,0 +1,6 @@
+isEnabled: true
+entityType: DROWNED
+name: '&6Элитный &eУтопленник &2$level &6уровня'
+deathMessages:
+- $player &cбыл забран далеко в глубины моря $entity!
+- $player &cутонул, как и $entity!

@@ -1,0 +1,6 @@
+isEnabled: true
+entityType: PIG_ZOMBIE
+name: '&6Элитный &eСвинозомби &2$level &6уровня'
+deathMessages:
+- $player &cбыл затыкан до смерти $entity&c!
+- $entity &cполучил отличный бекон из $player&c!

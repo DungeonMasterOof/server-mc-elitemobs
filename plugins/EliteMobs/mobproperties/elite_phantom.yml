@@ -1,0 +1,7 @@
+isEnabled: true
+entityType: PHANTOM
+name: '&6Элитный &eФантом &2$level &6уровня'
+deathMessages:
+- $player &cприснился кошмар о $entity&c!
+- $player &cбудут сниться ужасные кошмары о $entity&c!
+- $entity &cдал понять $player &cценность сна!
