@@ -1,0 +1,61 @@
+portals:
+  Maze:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: '123'
+    location: 2397.0,64.0,925.0:2397.0,73.0,933.0
+    world: spigotworld
+    destination: elitemobs_sewer_maze
+  Spigotworld1:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: '123'
+    location: -26.0,168.0,-169.0:-23.0,172.0,-169.0
+    world: elitemobs_sewer_maze
+    destination: e:spigotworld:2391.4657834115924,64.0,929.5561698899415:-0.8999259:90.1496
+  Spigotworld2:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: '123'
+    location: 8.0,33.0,-8.0:10.0,35.0,-8.0
+    world: cathedral
+    destination: e:spigotworld:5114.506426498711,76.0,1666.5814379002543:0.74999416:269.99957
+  Cathedral_portal:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: '123'
+    location: 5111.0,76.0,1664.0:5111.0,80.0,1668.0
+    world: spigotworld
+    destination: cathedral
+  Spigotworld3:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: '123'
+    location: 13.0,4.0,-60.0:21.0,11.0,-60.0
+    world: lich
+    destination: e:spigotworld_the_end:132.397636035898,56.0,-27.448607710148753:2.399774:89.38602
+  Lich:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: '123'
+    location: 136.0,56.0,-29.0:136.0,58.0,-27.0
+    world: spigotworld_the_end
+    destination: e:lich:17.702438178879824,4.0,-61.59616116817499:0.44998768:179.54993

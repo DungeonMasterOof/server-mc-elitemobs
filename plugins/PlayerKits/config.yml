@@ -1,0 +1,65 @@
+Messages:
+  prefix: '&8[&4Наборы&8] '
+  noPermissions: '&cУ вас недостаточно прав для этого.'
+  commandCreateError: '&cВам нужно использовать &7/kit create <name>'
+  commandDeleteError: '&cВам нужно использовать &7/kit delete <name>'
+  commandClaimError: '&cВам нужно использовать &7/kit claim <kit>'
+  commandGiveError: '&cВам нужно использовать &7/kit give <kit> <player>'
+  commandEditError: '&cВам нужно использовать &7/kit edit <kit>'
+  commandPreviewError: '&cВам нужно использовать &7/kit preview <kit>'
+  kitAlreadyExists: '&cНабор &7%name% &cуже есть в конфиге.'
+  kitDoesNotExists: '&cНабор &7%name% &cне существует.'
+  inventoryEmpty: '&cВам нужен хотя бы один предмет в инвентаре для создания набора.'
+  kitCreated: '&aНабор &7%name% &aсоздан.'
+  kitRemoved: '&aНабор &7%name% &aбыл удалён.'
+  inventoryName: '&9Наборы'
+  kitReceived: '&aНабор &7%name% &aполучен.'
+  configReload: '&aКонфиг перезагружен.'
+  seconds: сек
+  minutes: мин
+  hours: ч
+  days: дн
+  cooldownError: '&cВам необходимо подождать &7%time% &cчтобы получить этот набор снова.'
+  kitNoPermissions: '&cУ вас недостаточно прав чтобы взять этот набор.'
+  kitInCooldownLore:
+  - '&cВам необходимо подождать &7%time%'
+  - '&cчтобы получить этот набор снова.'
+  commandList: '&6&lСписок наборов'
+  commandListKit: '&6%number% &8» &a%набор%'
+  commandListKitNoPermissions: '&6%number% &8» &c%kit% &7(Нет прав)'
+  commandListKitInCooldown: '&6%number% &8» &c%kit% &7(К/д: &8%time%&7)'
+  commandListKitOneTime: '&6%number% &8» &c%kit% &7(Уже взят&7)'
+  noSpaceError: '&cУ вас недостаточно места в инвентаре.'
+  materialNameError: '&cThere is an error on your config. Material: &7&l%material%
+    &cis not valid for your Minecraft version.'
+  oneTimeError: '&cВы не можете взять этот набор снова.'
+  kitOneTimeLore:
+  - '&cВы не можете взять этот набор снова.'
+  previewInventoryName: '&Предпросмотр набора'
+  backItemName: '&7Назад'
+  playerNotOnline: '&cИгрок &7%player% &cне в сети.'
+  kitGive: '&aНабор &7%kit% &aбыл выдан &e%player%&a!'
+  noMoneyError: '&cУ вас недостаточно денег для покупки этого набора. &8(&a$&c%current_money%&7/&a$&c%required_money%&8)'
+  moneyInventoryName: '&9Подтвердите покупку'
+  moneyInventoryYes: '&a&lДА'
+  moneyInventoryNo: '&c&lНЕТ'
+  moneyInventoryConfirmationName: '&6Вы уверены?'
+  moneyInventoryConfirmationLore:
+  - '&7Стоит &a%price% MC'
+Config:
+  inventorySize: 45
+  kit_preview: true
+  kit_preview_back_item: true
+  Inventory:
+    '0':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '8':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '36':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '44':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
