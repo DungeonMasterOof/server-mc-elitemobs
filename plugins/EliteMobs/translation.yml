@@ -1,0 +1,25 @@
+Missing permission message title: Похоже, что у вас недостаточно прав, $username.
+Missing permission message subtitle: У вас нет $permission
+Missing permission message: Нет прав выполнить команду.
+Valid commands message: 'Доступные команды:'
+Invalid command message: 'Команда не найдена. Список доступных команд:'
+Economy pay message: Вы передали &2$amount_sent $currency_name &f $receiver
+Economy currency left message: Теперь у вас &2$amount_left $currency_name
+Economy money from payment message: Вы получили &2$amount_sent $currency_name &fот
+  $sender
+Economy payment for negative value: '&cХорошая попытка, правда EM знает о прошлых
+  ошибках банков.'
+Economy payment insuficient currency: '&cУ вас недостаточно $currency_name для данного
+  действия!'
+Economy invalid pay command syntax: '&cНеправильно введена команда. Верный вариант:
+  &e/em pay [ник игрока] [сумма]'
+Wallet command message: У вас на счету &2$balance $currency_name
+Shop buy message: '&aYou have bought $item_name &afor $item_value $currency_name!'
+Shop current balance message: '&aYou have $currency_amount $currency_name.'
+Shop insufficient funds message: '&cYou don''t have enough $currency_name!'
+Shop item cost message: That item costs &c$item_value $currency_name.
+Shop sell message: '&aYou have sold $item_name &afor $currency_amount $currency_name!'
+Shop sale instructions: '&cYou can only sell EliteMobs loot here! (Armor / weapons
+  dropped from elites showing a value on their lore)'
+Teleport time left: '&7[EM] Teleporting in &a$time &7seconds...'
+Teleport cancelled: '&7[EM] &cTeleport interrupted!'

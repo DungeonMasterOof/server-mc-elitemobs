@@ -1,0 +1,27 @@
+Valid worlds:
+  worldeditregentempworld: true
+  lich: true
+  test: true
+  cathedral: true
+  elitemobs_sewer_maze: true
+  spigotworld: true
+  spigotworld_nether: true
+  spigotworld_the_end: true
+Zone-based elitemob spawning worlds:
+  worldeditregentempworld: false
+  lich: false
+  test: false
+  cathedral: false
+  elitemobs_sewer_maze: false
+  spigotworld: false
+  spigotworld_nether: false
+  spigotworld_the_end: false
+Nightmare mode worlds:
+  worldeditregentempworld: false
+  lich: false
+  test: false
+  cathedral: false
+  elitemobs_sewer_maze: false
+  spigotworld: false
+  spigotworld_nether: false
+  spigotworld_the_end: false

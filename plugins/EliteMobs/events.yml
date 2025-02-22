@@ -1,0 +1,6 @@
+Enable events: true
+Minimum amount of online players for event to trigger: 2
+Maximum amount of online players after which the event frequency won't increase: 100
+Minimum event frequency (minutes): 240
+Maximum event frequency (minutes): 40
+Only broadcast event message in event world: false
